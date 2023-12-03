@@ -17,6 +17,13 @@ Thus, compared to the LSTM-based method, our method reduces the deep learning mo
 # Experiment
 
 ## 1. main experiment
-### space time variant via user mobility(case4, case5)
+### To inspect the effect of user mobility on the service cache performance(case4, case5)
 - case4 : using MovieLens datasets for request list and Nivvy datasets for user mobility recoard
-- case5 : using MovieLens datasets for request list and make user mobility datasets based on random direction and speed.
+- case5 : using MovieLens datasets for request list and make user mobility datasets based on random direction [0,360) and speed[0, 0.2km] or [0, 0.5km].
+
+### To assess the impact of the degree of service popularity change at each MECS on the caching performance(case6)
+- case6 : make datasets by controling the degree of serice popularity change at each MECS. we randomly cofigure V(t+1) = V(t) + x(t)y(t)
+- x(t) is determined with a probability of 1/2 to be either 1 or -1
+- y(t) is selected from [0, degree] according to the Uniform distribution
+
+## 2. other experiment
