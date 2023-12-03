@@ -1,4 +1,4 @@
-We are using MovieLens dataset 2019-01-01 00:00:00 to 2019-12-31 23:59:59
+We are using MovieLens dataset 2019-01-01 00:00:00 to 2019-10-31 23:59:59 for training, 2019-11-01 00:00:00 to 2019-11-30 00:00:00 for test.
 - You need to change Month variable so that you make datasets for a year each
 
 In case4 and case5, you will create user_mobility folder to record user's position per each time slot.
