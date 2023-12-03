@@ -23,8 +23,8 @@ Thus, compared to the LSTM-based method, our method reduces the deep learning mo
 
 ### To assess the impact of the degree of service popularity change at each MECS on the caching performance(case6)
 - case6 : make datasets by controling the degree of serice popularity change at each MECS. we randomly cofigure V(t+1) = V(t) + x(t)y(t)
-- x(t) is determined with a probability of 1/2 to be either 1 or -1
-- y(t) is selected from [0, degree] according to the Uniform distribution
+  - x(t) is determined with a probability of 1/2 to be either 1 or -1
+  - y(t) is selected from [0, degree] according to the Uniform distribution
 
 ## 2. other experiment
 - case1 : (Homogeneous case) All MECS have similar service popularity. 
