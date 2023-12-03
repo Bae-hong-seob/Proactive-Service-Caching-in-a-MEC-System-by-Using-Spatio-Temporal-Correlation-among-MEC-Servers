@@ -27,6 +27,6 @@ Thus, compared to the LSTM-based method, our method reduces the deep learning mo
 - y(t) is selected from [0, degree] according to the Uniform distribution
 
 ## 2. other experiment
-- case1 : 
-- case2 :
-- case3 :
+- case1 : (Homogeneous case) All MECS have similar service popularity. 
+- case2 : (Partially Heterogeneous case) Each MECS have different service popularity.
+- case3 : (Heterogeneous case) Each MECS have different service popularity and change service popularity over time. 
