@@ -34,9 +34,3 @@ Thus, compared to the LSTM-based method, our method reduces the deep learning mo
 - case1 : (Homogeneous case) All MECS have similar service popularity. 
 - case2 : (Partially Heterogeneous case) Each MECS have different service popularity.
 - case3 : (Heterogeneous case) Each MECS have different service popularity and change service popularity over time. 
-
-# How to amke service dataset using MovieLens dataset.
-
-## 1. Description of datasets used
-- Using only 2019 years data in MovieLens dataset. (There are 1,202,602 data for 10,619 users and 41,440 movieIds)
-- Descending order frequency MovieId remapping 0 to N-1
