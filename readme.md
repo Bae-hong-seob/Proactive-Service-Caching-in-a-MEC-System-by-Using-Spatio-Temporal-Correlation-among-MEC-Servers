@@ -14,6 +14,10 @@ As a result, our method increases the average cache hit rate by more than 6.97% 
 From an implementation standpoint, our method requires only one ConvLSTM model while the LSTM-based method requires at least one LSTM model for each MECS.  
 Thus, compared to the LSTM-based method, our method reduces the deep learning model parameters by 32.15%.
 
+# Download Model
+- [Our Methods](https://drive.google.com/file/d/1gQu1kutfRuS7_IAO3IzRmqU4JzD6RrFJ/view?usp=drive_link)
+- [Basic approach](https://drive.google.com/file/d/155_UTn10XWTBYpXf-8vIyEO1Luo087zW/view?usp=drive_link)
+
 # Experiment
 
 ## 1. main experiment
