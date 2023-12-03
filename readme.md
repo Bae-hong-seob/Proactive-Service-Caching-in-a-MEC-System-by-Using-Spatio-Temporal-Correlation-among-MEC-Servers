@@ -37,3 +37,8 @@ Thus, compared to the LSTM-based method, our method reduces the deep learning mo
 - case1 : (Homogeneous case) All MECS have similar service popularity. 
 - case2 : (Partially Heterogeneous case) Each MECS have different service popularity.
 - case3 : (Heterogeneous case) Each MECS have different service popularity and change service popularity over time. 
+
+# Performance (Proposed method / LSTM)
+- Hit rate : 81.08% / 74.74% (Also, you can see Hit rate change over time per MECS)
+- Similarity Degree : 61.81% / 54.45%
+- Popularity Change per MECS : Proposed method < LSTM
