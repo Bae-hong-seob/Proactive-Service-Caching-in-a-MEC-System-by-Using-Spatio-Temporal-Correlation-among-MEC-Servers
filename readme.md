@@ -13,3 +13,10 @@ In the LSTM-based method, each MECS predicts the service popularity independentl
 As a result, our method increases the average cache hit rate by more than 6.97% compared to the LSTM-based method.  
 From an implementation standpoint, our method requires only one ConvLSTM model while the LSTM-based method requires at least one LSTM model for each MECS.  
 Thus, compared to the LSTM-based method, our method reduces the deep learning model parameters by 32.15%.
+
+# Experiment
+
+## main experiment
+### space time variant via user mobility(case4, case5)
+- case4 : using MovieLens datasets for request list and Nivvy datasets for user mobility recoard
+- case5 : using MovieLens datasets for request list and make user mobility datasets based on random direction and speed.
