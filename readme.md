@@ -1,5 +1,5 @@
 # Abstract
-Optimizingthe cache hit rate in a multi-access edge computing (MEC) system is essential in increasing the utility of a system.  
+Optimizing the cache hit rate in a multi-access edge computing (MEC) system is essential in increasing the utility of a system.  
 A pivotal challenge within this context lies in predicting the popularity of a service.  
 However, accurately predicting popular services for each MEC server (MECS) is hindered by the dynamic nature of user preferences in both time and space, coupled with the necessity for real-time adaptability.  
 
