@@ -16,7 +16,7 @@ Thus, compared to the LSTM-based method, our method reduces the deep learning mo
 
 # Experiment
 
-## main experiment
+## 1. main experiment
 ### space time variant via user mobility(case4, case5)
 - case4 : using MovieLens datasets for request list and Nivvy datasets for user mobility recoard
 - case5 : using MovieLens datasets for request list and make user mobility datasets based on random direction and speed.
