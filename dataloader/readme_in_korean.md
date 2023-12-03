@@ -1,6 +1,4 @@
-
-##### Service_Caching
-Recommend to caching items for each MEC server.
+# Explain how to make dataset for each case in korean.
 
 1. Performance Evaluation  
 - 1.1 Description of datasets used
